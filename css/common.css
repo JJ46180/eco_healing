@@ -1,0 +1,36 @@
+header,
+section,
+footer {
+  width: 100%;
+}
+
+.container_1 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container_2 {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.container_3 {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.container_1_header_btn {
+  width: 1000px;
+}
+
+@media all and (max-width: 1400px) {
+  .container_2 {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .container_3 {
+    width: 90%;
+  }
+}
